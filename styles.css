@@ -14,3 +14,110 @@ body{
     font-family: "Quicksand", serif;
     font-family: "Raleway", serif;
 }
+
+header{
+    background-color: #F7F7F7;
+    padding-top: 1px;
+}
+/* navbar start */
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.logo h2{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.nav-btn{
+    font-family: "Quicksand", serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FEA301;
+    color: white;
+    cursor: pointer;
+}
+.menu-item1{
+    font-family: "Quicksand", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #FEA301;
+}
+.menu-item2{
+    font-family: "Quicksand", serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #01ACFD;
+}
+.menu-item3{
+    font-family: "Quicksand", serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #05D4DF;
+}
+.menu-item4{
+    font-family: "Quicksand", serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #5D58EF;
+}
+#toggle{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    .logo h2{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    
+    #toggle{
+        display: block;
+       font-size: 30px;
+        padding: 15px 0px;
+        cursor: pointer;
+
+    }
+}
