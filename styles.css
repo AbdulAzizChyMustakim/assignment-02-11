@@ -84,7 +84,9 @@ header{
 #toggle{
     display: none;
 }
-
+.mobile-line{
+    display: none;
+}
 
 
 
@@ -119,5 +121,9 @@ header{
         padding: 15px 0px;
         cursor: pointer;
 
+    }
+    .mobile-line{
+        display: block;
+        border: 0.5px solid rgb(254, 163, 1);
     }
 }
