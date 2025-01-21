@@ -20,6 +20,7 @@ header{
     padding-top: 1px;
 }
 /* navbar start */
+
 .navbar{
     width: 90%;
     margin: auto;
@@ -87,11 +88,50 @@ header{
 .mobile-line{
     display: none;
 }
+/* navbar end */
+/* banner part start */
+.banner-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-
-
-
-
+}
+.banner-txt h1{
+    font-family: "Quicksand", serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.span1{
+    color: #FEA301;
+}
+.span2{
+    color: #01ACFD;
+}
+.banner-txt p{
+    font-family: "Quicksand", serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #111111;
+    margin: 24px 0px;
+}
+.banner-txt button{
+    font-family: "Quicksand", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(17, 17, 17);;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.banner-img img{
+    width: 100%;
+}
 
 
 
@@ -105,6 +145,7 @@ header{
 
 /* Responsive */
 @media screen and (max-width: 576px) {
+    /* navbar */
     .logo h2{
         display: none;
     }
@@ -125,5 +166,24 @@ header{
     .mobile-line{
         display: block;
         border: 0.5px solid rgb(254, 163, 1);
+    }
+    /* navbar */
+    /* banner part */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-txt{
+        text-align: center;
+
+    }
+    .banner-txt h1{
+        font-size: 32px;
+    }
+    .banner-txt p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .brr{
+        display: none;
     }
 }
