@@ -142,8 +142,15 @@ header{
     background-size: cover;
     background-position: center;
     padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
    
 }
+.cur-cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .cur-container h1{
     text-align: center;
     font-family: "Quicksand", serif;
@@ -177,7 +184,9 @@ header{
     text-align: center;
 }
 .card-btn1{
-    text-align: center;
+    width: 290px;
+    border: none;
+    background-color: transparent;
     font-family: "Quicksand", serif;
     font-size: 1.1rem;
     font-weight: 700;
@@ -223,7 +232,9 @@ header{
     align-items: center;
 }
 .card-btn2{
-    text-align: center;
+    width: 290px;
+    border: none;
+    background-color: transparent;
     font-family: "Quicksand", serif;
     font-size: 1.1rem;
     font-weight: 700;
@@ -256,7 +267,9 @@ header{
     align-items: center;
 }
 .card-btn3{
-    text-align: center;
+    width: 290px;
+    border: none;
+    background-color: transparent;
     font-family: "Quicksand", serif;
     font-size: 1.1rem;
     font-weight: 700;
@@ -265,14 +278,29 @@ header{
     
 }
 
-.cur-cards-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.arrow-container{
+    text-align: center;
+    font-size: 3rem;
+    padding: 80px 0px;
+}
+.arrow-left{
+    padding: 20px;
+    border-radius: 100px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+
+}
+.arrow-right{
+    padding: 20px;
+    border-radius: 100px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
 
 }
 
-/* Responsive */
+                            /* Responsive */
 @media screen and (max-width: 576px) {
     /* navbar */
     .logo h2{
@@ -327,7 +355,7 @@ header{
     }
     .cur-cards-container{
         flex-direction: column;
-      
+        align-items: center;
     }
     .cur-card-one{
         margin-bottom: 12px;
@@ -343,6 +371,8 @@ header{
         margin-bottom: 30px;
     }
 
-
+    .arrow-container{
+        display: none;
+    }
 
 }
