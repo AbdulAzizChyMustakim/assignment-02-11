@@ -300,6 +300,242 @@ header{
 
 }
 
+        /* stories start */
+
+    .stories-section{
+         background-image: url("assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+            padding-bottom: 3.75rem;
+        }
+        .move{
+            font-family: "Quicksand", serif;
+            font-weight: 500;
+            font-size: 1.2rem;;
+        }
+    .stories-title{
+        font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 2.9rem;
+        text-align: center;
+        padding: 60px 0px;
+        
+    }
+    .stories-btn{
+        display: flex;
+        align-items: center;
+    }
+    .stories-btn button{
+        margin: auto;
+        font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+        color: white;
+        padding: 10px 60px;
+        border: none;
+        border-radius: 12px;
+        background: rgb(17, 17, 17);
+        cursor: pointer;
+    }
+    .card-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+
+    }
+
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 16px;
+        width: 90%;
+        max-width: 1200px;
+    }
+    
+    .card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 16px;
+     
+        text-align: left;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: relative; 
+    }
+    
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px 16px 0px 0px;
+        margin-bottom: 16px;
+        position: relative;
+    }
+    
+   
+
+    
+    .large-card {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .large-btn{
+        font-family: "Raleway", serif;
+        font-weight: 500;
+        font-size: 1rem;
+        position: absolute; 
+        bottom: 270px; 
+        left: 20%; 
+        transform: translate(-50%, 50%); 
+        background-color: #3CD8E8;
+        color: white;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    .large-card-txt{
+        padding: 40px;
+    }
+    .large-card-txt h2{
+        font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #000000;
+        margin-bottom: 50px;
+    }
+    .large-card-txt p{
+        font-family: "Raleway", serif;
+        font-weight: 500;
+        font-size: 1rem;
+        color: #666666;
+    }
+   
+    .small-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .small-card h3{
+        font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 1rem;
+        color: #000000;
+        padding: 30px 40px;
+    }
+    .small-btn{
+        font-family: "Raleway", serif;
+        font-weight: 500;
+        font-size: 1rem;
+        position: absolute; 
+        bottom: 110px;
+        left: 30px;
+      
+        background-color: #95B226;
+        color: white;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    .blue-btn{
+        background-color: #5D58F0;
+    }
+
+
+        /* stories end */
+
+        /* Footer */
+       
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 120px;
+    background-color: #01ACFD;
+ 
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.footer-logo h2{
+    color: white;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer div {
+
+    margin: 10px;
+}
+
+
+.footer-left p {
+    font-family: "Quicksand", serif;
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: white;
+        padding-left: 18px;
+        margin-top: 35px;
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-middle h3 {
+    font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: white;
+        margin-bottom: 35px;
+}
+
+.footer-middle{
+    margin-left: 150px;
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Quicksand", serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+
+.footer-right h3{
+    font-family: "Quicksand", serif;
+        font-weight: 700;
+        font-size: 26px;
+        color: white;
+        padding-bottom: 20px;
+}
+.footer-right .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+    
+
+
+
+
+
                             /* Responsive */
 @media screen and (max-width: 576px) {
     /* navbar */
@@ -373,6 +609,66 @@ header{
 
     .arrow-container{
         display: none;
+    }
+    /* stories */
+    .stories-title{
+        padding: 0px;
+        font-size: 1.625rem;
+    }
+    .large-card{
+        display: none;
+    }
+    .card-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .small-btn{
+        font-family: "Raleway", serif;
+        font-weight: 500;
+        font-size: 0.625rem;
+        position: absolute; 
+        bottom: 50px;
+        left: 20px;
+
+        background-color: #95B226;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    .blue-btn{
+        background-color: #5D58F0;
+    }
+
+    .small-card h3{
+        font-size: 0.625rem;
+        padding: 15px 20px;
+        padding-top: 0px;
+    }
+  
+    .stories-btn button{
+        font-size: 1rem;
+        padding: 5px 30px;
+    }
+
+    .footer {
+        flex-direction: column; 
+        text-align: left; 
+        align-items: flex-start;
+        padding: 0px;
+    }
+  
+    .footer-left p{
+        padding: 0px;
+    }
+    .footer div {
+        margin-bottom: 20px; 
+    }
+
+    .footer-right .social-icons img {
+        margin-right: 0; 
     }
 
 }
